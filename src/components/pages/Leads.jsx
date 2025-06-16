@@ -151,14 +151,14 @@ const Leads = () => {
 // Lead Modal Component
 const LeadModal = ({ isOpen, onClose, onSave, lead }) => {
   const [formData, setFormData] = useState({
-    customerName: '',
+customer_name: '',
     company: '',
     email: '',
     phone: '',
     stage: 'New',
     value: 0,
     probability: 25,
-    assignedTo: 'John Smith'
+    assigned_to: 'John Smith'
   })
   const [loading, setLoading] = useState(false)
 
@@ -166,15 +166,15 @@ const LeadModal = ({ isOpen, onClose, onSave, lead }) => {
     if (lead) {
       setFormData(lead)
     } else {
-      setFormData({
-        customerName: '',
+setFormData({
+        customer_name: '',
         company: '',
         email: '',
         phone: '',
         stage: 'New',
         value: 0,
         probability: 25,
-        assignedTo: 'John Smith'
+        assigned_to: 'John Smith'
       })
     }
   }, [lead, isOpen])
@@ -221,9 +221,9 @@ const LeadModal = ({ isOpen, onClose, onSave, lead }) => {
 
           <form onSubmit={handleSubmit} className="space-y-4">
             <Input
-              label="Customer Name"
-              value={formData.customerName}
-              onChange={(e) => setFormData(prev => ({ ...prev, customerName: e.target.value }))}
+label="Customer Name"
+              value={formData.customer_name}
+              onChange={(e) => setFormData(prev => ({ ...prev, customer_name: e.target.value }))}
               required
             />
             
@@ -285,8 +285,8 @@ const LeadModal = ({ isOpen, onClose, onSave, lead }) => {
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-2">Assigned To</label>
               <select
-                value={formData.assignedTo}
-                onChange={(e) => setFormData(prev => ({ ...prev, assignedTo: e.target.value }))}
+value={formData.assigned_to}
+                onChange={(e) => setFormData(prev => ({ ...prev, assigned_to: e.target.value }))}
                 className="w-full px-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
               >
                 <option value="John Smith">John Smith</option>

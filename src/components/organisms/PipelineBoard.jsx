@@ -86,9 +86,9 @@ const PipelineBoard = () => {
             ${snapshot.isDragging ? 'shadow-lg rotate-2' : ''}
           `}
         >
-          <div className="flex items-start justify-between mb-2">
+<div className="flex items-start justify-between mb-2">
             <h4 className="font-medium text-gray-900 truncate flex-1">
-              {lead.customerName}
+              {lead.customer_name || lead.customerName}
             </h4>
             <div className="flex items-center ml-2">
               <ApperIcon name="GripVertical" size={16} className="text-gray-400" />
@@ -106,9 +106,9 @@ const PipelineBoard = () => {
             </Badge>
           </div>
           
-          <div className="flex items-center justify-between text-xs text-gray-500">
-            <span>{lead.assignedTo}</span>
-            <span>{new Date(lead.lastActivity).toLocaleDateString()}</span>
+<div className="flex items-center justify-between text-xs text-gray-500">
+            <span>{lead.assigned_to || lead.assignedTo}</span>
+<span>{new Date(lead.last_activity || lead.lastActivity).toLocaleDateString()}</span>
           </div>
         </motion.div>
       )}

@@ -63,10 +63,10 @@ const TaskList = ({ filter = 'all', limit }) => {
         filtered = tasks.filter(task => !task.completed)
         break
       case 'overdue':
-        filtered = tasks.filter(task => !task.completed && isPast(new Date(task.dueDate)))
+filtered = tasks.filter(task => !task.completed && isPast(new Date(task.due_date || task.dueDate)))
         break
       case 'today':
-        filtered = tasks.filter(task => !task.completed && isToday(new Date(task.dueDate)))
+        filtered = tasks.filter(task => !task.completed && isToday(new Date(task.due_date || task.dueDate)))
         break
       default:
         filtered = tasks
@@ -192,13 +192,13 @@ const TaskList = ({ filter = 'all', limit }) => {
                     <Badge variant={getPriorityVariant(task.priority)} size="sm">
                       {task.priority}
                     </Badge>
-                    <span className={`text-sm font-medium ${getDateColor(task.dueDate, task.completed)}`}>
-                      {getDateDisplay(task.dueDate)}
+<span className={`text-sm font-medium ${getDateColor(task.due_date || task.dueDate, task.completed)}`}>
+                      {getDateDisplay(task.due_date || task.dueDate)}
                     </span>
                   </div>
 
-                  <div className="flex items-center space-x-2">
-                    <span className="text-sm text-gray-500">{task.assignedTo}</span>
+<div className="flex items-center space-x-2">
+                    <span className="text-sm text-gray-500">{task.assigned_to || task.assignedTo}</span>
                     <button
                       onClick={() => handleDeleteTask(task.id)}
                       className="text-gray-400 hover:text-error transition-colors p-1"

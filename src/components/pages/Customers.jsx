@@ -131,7 +131,7 @@ const Customers = () => {
       sortable: true
     },
     {
-      key: 'assignedTo',
+key: 'assigned_to',
       label: 'Assigned To',
       sortable: true
     },
@@ -221,13 +221,13 @@ const Customers = () => {
 
 // Customer Modal Component
 const CustomerModal = ({ isOpen, onClose, onSave, customer }) => {
-  const [formData, setFormData] = useState({
+const [formData, setFormData] = useState({
     name: '',
     email: '',
     phone: '',
     company: '',
     status: 'Prospect',
-    assignedTo: 'John Smith',
+    assigned_to: 'John Smith',
     value: 0
   })
   const [loading, setLoading] = useState(false)
@@ -236,13 +236,13 @@ const CustomerModal = ({ isOpen, onClose, onSave, customer }) => {
     if (customer) {
       setFormData(customer)
     } else {
-      setFormData({
+setFormData({
         name: '',
         email: '',
         phone: '',
         company: '',
         status: 'Prospect',
-        assignedTo: 'John Smith',
+        assigned_to: 'John Smith',
         value: 0
       })
     }
@@ -340,8 +340,8 @@ const CustomerModal = ({ isOpen, onClose, onSave, customer }) => {
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-2">Assigned To</label>
               <select
-                value={formData.assignedTo}
-                onChange={(e) => setFormData(prev => ({ ...prev, assignedTo: e.target.value }))}
+value={formData.assigned_to}
+                onChange={(e) => setFormData(prev => ({ ...prev, assigned_to: e.target.value }))}
                 className="w-full px-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
               >
                 <option value="John Smith">John Smith</option>
