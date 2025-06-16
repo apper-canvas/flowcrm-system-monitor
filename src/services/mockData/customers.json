@@ -1,0 +1,57 @@
+[
+  {
+    "id": "1",
+    "name": "Sarah Johnson",
+    "email": "sarah.johnson@techcorp.com",
+    "phone": "+1 (555) 123-4567",
+    "company": "TechCorp Solutions",
+    "status": "Active",
+    "assignedTo": "John Smith",
+    "createdAt": "2024-01-15T10:30:00Z",
+    "value": 85000
+  },
+  {
+    "id": "2",
+    "name": "Michael Chen",
+    "email": "m.chen@innovate.io",
+    "phone": "+1 (555) 987-6543",
+    "company": "Innovate Digital",
+    "status": "Active",
+    "assignedTo": "Emily Davis",
+    "createdAt": "2024-02-03T14:15:00Z",
+    "value": 125000
+  },
+  {
+    "id": "3",
+    "name": "Lisa Rodriguez",
+    "email": "lisa.r@globaltech.com",
+    "phone": "+1 (555) 456-7890",
+    "company": "Global Tech Industries",
+    "status": "Prospect",
+    "assignedTo": "John Smith",
+    "createdAt": "2024-02-20T09:45:00Z",
+    "value": 67000
+  },
+  {
+    "id": "4",
+    "name": "David Thompson",
+    "email": "david@startup-hub.com",
+    "phone": "+1 (555) 321-9876",
+    "company": "Startup Hub",
+    "status": "Active",
+    "assignedTo": "Emily Davis",
+    "createdAt": "2024-01-28T16:20:00Z",
+    "value": 45000
+  },
+  {
+    "id": "5",
+    "name": "Amanda Foster",
+    "email": "amanda.foster@enterprise.net",
+    "phone": "+1 (555) 654-3210",
+    "company": "Enterprise Solutions",
+    "status": "Inactive",
+    "assignedTo": "Mark Wilson",
+    "createdAt": "2024-01-10T11:00:00Z",
+    "value": 98000
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "1",
+    "type": "Call",
+    "relatedTo": "1",
+    "subject": "Initial consultation call",
+    "notes": "Discussed current pain points and software requirements. Very interested in our enterprise solution. Next step: send detailed proposal.",
+    "createdBy": "John Smith",
+    "createdAt": "2024-03-15T10:30:00Z"
+  },
+  {
+    "id": "2",
+    "type": "Email",
+    "relatedTo": "2",
+    "subject": "Demo scheduling",
+    "notes": "Sent calendar invite for product demo next week. Client requested focus on API integration capabilities.",
+    "createdBy": "Emily Davis",
+    "createdAt": "2024-03-14T14:20:00Z"
+  },
+  {
+    "id": "3",
+    "type": "Meeting",
+    "relatedTo": "3",
+    "subject": "Discovery meeting",
+    "notes": "Met with their IT team to understand current infrastructure. Identified integration challenges and potential solutions.",
+    "createdBy": "John Smith",
+    "createdAt": "2024-03-13T16:00:00Z"
+  },
+  {
+    "id": "4",
+    "type": "Call",
+    "relatedTo": "4",
+    "subject": "Pricing negotiation",
+    "notes": "Discussed volume discounts and payment terms. Client interested in annual contract with quarterly payments.",
+    "createdBy": "Emily Davis",
+    "createdAt": "2024-03-16T11:15:00Z"
+  },
+  {
+    "id": "5",
+    "type": "Email",
+    "relatedTo": "5",
+    "subject": "Implementation kickoff",
+    "notes": "Sent project timeline and assigned technical account manager. Implementation scheduled to begin next month.",
+    "createdBy": "Mark Wilson",
+    "createdAt": "2024-03-12T13:45:00Z"
+  }
+]

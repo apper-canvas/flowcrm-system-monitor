@@ -1,0 +1,80 @@
+[
+  {
+    "id": "1",
+    "customerId": "1",
+    "customerName": "Sarah Johnson",
+    "company": "TechCorp Solutions",
+    "stage": "Qualified",
+    "value": 45000,
+    "probability": 75,
+    "assignedTo": "John Smith",
+    "lastActivity": "2024-03-15T14:30:00Z",
+    "email": "sarah.johnson@techcorp.com",
+    "phone": "+1 (555) 123-4567"
+  },
+  {
+    "id": "2",
+    "customerId": "2",
+    "customerName": "Michael Chen",
+    "company": "Innovate Digital",
+    "stage": "Proposal",
+    "value": 78000,
+    "probability": 85,
+    "assignedTo": "Emily Davis",
+    "lastActivity": "2024-03-14T16:45:00Z",
+    "email": "m.chen@innovate.io",
+    "phone": "+1 (555) 987-6543"
+  },
+  {
+    "id": "3",
+    "customerId": "3",
+    "customerName": "Lisa Rodriguez",
+    "company": "Global Tech Industries",
+    "stage": "New",
+    "value": 32000,
+    "probability": 25,
+    "assignedTo": "John Smith",
+    "lastActivity": "2024-03-13T10:15:00Z",
+    "email": "lisa.r@globaltech.com",
+    "phone": "+1 (555) 456-7890"
+  },
+  {
+    "id": "4",
+    "customerId": "4",
+    "customerName": "David Thompson",
+    "company": "Startup Hub",
+    "stage": "Negotiation",
+    "value": 56000,
+    "probability": 90,
+    "assignedTo": "Emily Davis",
+    "lastActivity": "2024-03-16T13:20:00Z",
+    "email": "david@startup-hub.com",
+    "phone": "+1 (555) 321-9876"
+  },
+  {
+    "id": "5",
+    "customerId": "5",
+    "customerName": "Amanda Foster",
+    "company": "Enterprise Solutions",
+    "stage": "Closed Won",
+    "value": 95000,
+    "probability": 100,
+    "assignedTo": "Mark Wilson",
+    "lastActivity": "2024-03-12T17:00:00Z",
+    "email": "amanda.foster@enterprise.net",
+    "phone": "+1 (555) 654-3210"
+  },
+  {
+    "id": "6",
+    "customerId": "1",
+    "customerName": "Robert Kim",
+    "company": "Future Systems",
+    "stage": "New",
+    "value": 28000,
+    "probability": 20,
+    "assignedTo": "John Smith",
+    "lastActivity": "2024-03-11T09:30:00Z",
+    "email": "robert.kim@futuresys.com",
+    "phone": "+1 (555) 789-0123"
+  }
+]
