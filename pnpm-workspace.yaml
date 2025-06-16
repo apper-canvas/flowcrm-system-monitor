@@ -1,0 +1,5 @@
+packages:
+  - '.'
+
+# Disable strict peer dependency checking to resolve redux version conflicts
+strictPeerDependencies: false
